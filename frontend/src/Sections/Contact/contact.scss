@@ -1,0 +1,198 @@
+.contactsection{
+    height: 660px;
+    padding-left: 7%;
+    padding-top: 4%;
+    background-image: radial-gradient(circle farthest-corner at 50.7% 52.7%, rgb(173, 0, 171) 8.3%, rgb(0, 11, 24) 79.4%);
+}
+
+.contactright{
+    height: 550px;
+   
+    /* From https://css.glass */
+background: rgba(233, 233, 233, 0.52);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.7px);
+-webkit-backdrop-filter: blur(11.7px);
+border: 1px solid rgba(255, 255, 255, 0.44);
+
+    border-radius: 15px;
+}
+
+//left section
+
+.contactleft{
+    padding: 2.7%;
+    height: 500px;
+  /* From https://css.glass */
+background: rgba(45, 45, 45, 0.67);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.3px);
+-webkit-backdrop-filter: blur(9.3px);
+border: 1px solid rgba(45, 45, 45, 1);
+    color: white;
+    margin-top: 1.9%;
+    border-radius: 15px 0 0 15px;
+}
+
+
+//-----
+.contactsection input{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  
+}
+.contactsection input:focus{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.contactsection input::placeholder{
+   
+    color: white;
+    
+}
+
+
+
+//-----
+
+.contactsection textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    
+}
+.contactsection textarea:focus{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    
+}
+.contactsection textarea::placeholder{
+  
+    color: white;
+    
+}
+
+
+
+//-----
+
+
+.contactsection label{
+  
+    color: white;
+    
+}
+
+  .contactsection small{
+  
+    color: rgb(198, 198, 198);
+    
+}
+
+//-Button
+
+.contactbutton{
+    background-color:aliceblue;
+    color: black;
+    transition-duration: 0.3s;
+    border: 1px solid aliceblue; 
+    
+}
+.contactbutton:hover{
+    background-color:transparent;
+    color: white;
+    border: 1px solid white; 
+}
+.contactbutton:focus{
+    background-color:transparent;
+    color: white;
+    border: 1px solid rgb(240, 240, 240); 
+    box-shadow: none;
+}
+
+
+
+//--Right side
+
+.contactright{
+    padding-top: 2%;
+    color: white;
+}
+
+.aboutme{
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.contactlinks{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-around;
+    height: 10%;
+}
+
+.contacticon{
+    padding: 5px;
+    border-radius: 50px;
+
+    background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    color: black;
+    height: 38px;
+    padding-left: 11px;
+    padding-right: 11px;
+    transition-duration: 0.3s;
+    position: relative;
+    bottom: 0px;
+
+  
+}
+
+.contacticon:hover{
+    bottom: 2px;
+}
+
+.contact{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.dividercontact{
+    width: 25%;
+    height: 0.1%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.contact p{
+    display: inline-block;
+}
+
+.contactlefticon{
+    
+    padding: 8px;
+    padding-left: 13px;
+    padding-bottom: 11px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.09);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(1.8px);
+    -webkit-backdrop-filter: blur(1.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.contactpic{
+    
+    background-color: #cd9cf2;
+    padding: 2px;
+    border-radius: 50px;
+}

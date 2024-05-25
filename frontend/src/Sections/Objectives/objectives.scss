@@ -1,0 +1,51 @@
+.objectivesbody{
+    height: 1076px;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px; 
+    border-bottom-left-radius: 2px;
+
+    background-image: 
+    radial-gradient(circle farthest-corner at 50.7% 52.7%, rgb(173, 0, 171) 8.3%, rgb(0 11 24) 79.4%);
+
+    position: relative;
+    bottom: 120px;
+}
+
+#objectivecardicon{
+    height: 70px;
+}
+
+.objectiveinner{
+    padding-left: 12%;
+ 
+}
+
+.objectivecard{
+  
+    margin-top: 5%;
+  /* From https://css.glass */
+background: rgba(45, 45, 45, 0.42);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.2px);
+-webkit-backdrop-filter: blur(6.2px);
+    color: white;
+    padding: 51px;
+    height: 342px;
+    border-radius: 12px;
+}
+
+.whyus{
+    letter-spacing: 8px;
+}
+
+.objectivepicture{
+    background-color: #4158D0;
+background-image:linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #efd7ec 100%);
+
+    height: 382px;
+    width: 381px;
+    border-radius: 21px;
+    position: relative;
+    bottom: 83px;
+}
