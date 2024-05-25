@@ -1,0 +1,66 @@
+.Educationarea{
+   
+   
+    height: 670px;
+    padding-top: 12.5%;
+
+}
+
+
+.longcardbody1{
+
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(249,108,233,1) 0%, rgba(173,5,221,1) 90% );
+    border-radius: 25px;
+    height: 400px;
+    padding-top: 25%;
+    color: white;
+    
+}
+
+.longcardbody2{
+
+    background-image: radial-gradient( circle farthest-corner at 52.1% -29.6%,  rgba(144,17,105,1) 0%, rgba(51,0,131,1) 100.2% );
+    border-radius: 25px;
+    height: 400px;
+    padding-top: 25%;
+    color: white;
+    position: relative;
+    bottom: 20%;
+}
+
+.longcardbody3{
+
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(249,108,233,1) 0%, rgba(173,5,221,1) 90% );
+    border-radius: 25px;
+    height: 400px;
+    padding-top: 25%;
+    color: white;
+    position: relative;
+    bottom: 10%;
+
+}
+
+.dividereducationcard{
+    
+    border-top: 1px solid white;
+    border-radius: 85px;
+    width: 30%;
+}
+.datearecard{
+
+padding: 5%;    
+background: rgba(255, 255, 255, 0.34);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.5px);
+-webkit-backdrop-filter: blur(6.5px);
+
+}
+
+.leftsideeducation{
+   
+    margin-left: 2%;
+}
+.rightsideeducation{
+    margin-left: 3%;
+}

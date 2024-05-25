@@ -1,0 +1,45 @@
+.navbarsimple{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+    position: sticky;
+    background-color: transparent;
+   
+}
+.menue{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuelink{
+
+    list-style: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+
+}
+.menuelink:hover{
+
+    list-style: none;
+    cursor: pointer;
+    color:  rgb(209, 0, 116);
+
+}
+
+
+
+.name{
+    margin-top: 1.1%;
+   
+}
+
+.menuebar{
+    margin-top: 1.1%;
+}
+
+.myname{
+    color: rgb(209, 0, 116); 
+}
