@@ -1,0 +1,24 @@
+.discountbody{
+    height: 669px;
+    background: linear-gradient(to bottom, #066163 0%, #066163 100%) no-repeat;
+    background-size: 100% 50%;
+    background-position: top;
+    padding: 7px;
+    margin: 19px;
+    border-radius: 30px;    
+}
+.discountinnerbody{
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 25px;
+    margin-top: 24px;
+    height: 525px;
+    border-radius: 32px;
+}
+
+.discountslist{
+    height: 330px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
+}

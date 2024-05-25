@@ -1,0 +1,34 @@
+.smallcardupper{
+    display: flex;
+    justify-content: space-between;
+}
+.smallcardbody
+{
+    padding: 20px;
+    background: blue;
+    border-radius: 15px;
+    color: white;
+    background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.smallcardbody2
+{
+    padding: 20px;
+    background: blue;
+    border-radius: 15px;
+    color: white;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+#simplecardlowericon{
+    position: relative;
+    left: 0px;
+    transition-duration: 0.5s;
+}
+#lowercontentsimplecard:hover #simplecardlowericon{
+left: 5px;
+}
+#lowercontentsimplecard{
+    cursor: pointer;
+}
+

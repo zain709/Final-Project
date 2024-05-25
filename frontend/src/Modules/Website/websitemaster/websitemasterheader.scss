@@ -1,0 +1,51 @@
+#buttonstyle1{
+
+    background-color: #066163;
+    color: #F2F2F2;
+  
+    transition-duration: 0.3s;
+    border: 1px solid #066163;
+}
+#buttonstyle1:focus{
+    background-color: #066163;
+    color: #F2F2F2;
+   
+    box-shadow: none;
+    border: 1px solid #066163;
+}
+
+#buttonstyle1:hover{
+
+    background-color: #F2F2F2;
+    color: #042333;
+   
+    border: 1px solid #3B5360;
+    
+
+}
+
+#socialicons{
+    color: #F2F2F2;
+}
+
+
+#navigationbar{
+    background-color: #383838;
+    color: #F2F2F2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+#navbarText a{
+    color: #F2F2F2;
+}
+#navbarText a:hover{
+    color: #E1DFBA;
+}
+#orderlink{
+    text-decoration: none;
+}
+#orderlink:hover{
+    text-decoration: none;
+    color: #383838 !important;
+}

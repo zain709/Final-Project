@@ -1,0 +1,118 @@
+.sliderpromotions{
+    height: 337px;
+   
+    text-align: center;
+    margin-top: 59px;
+    padding-top: 8%;
+    background: url("../../../../public/icons/promotionssliderbackground.png");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+
+
+
+//Deals styling
+
+.dealsheader{
+    text-align: center;
+    background-color: #323131;
+    height: 119px;
+    padding-top: 26px;
+    
+}
+.dealsheader h4{
+   
+    color: white ;
+    
+}
+.dealsheader p{
+   
+    color: #F2F2F2 ;
+    
+}
+
+.dealscards{
+  
+  padding: 0;
+  
+}
+#dealcard{
+    background-color: #066163 !important ;
+    border-radius: 20px;
+    width: 300px;
+    float: inline-start;
+}
+.carddevider{
+    width: 150px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.oldprice{
+    color: #d8d8d8;
+}
+
+
+
+
+
+
+//Flat promotions Styling
+
+
+.flatpromotionsarea{
+  
+  
+    margin-bottom: 66px;
+}
+
+.flatpromotionsheader{
+    text-align: center;
+    background-color: #323131;
+    height: 119px;
+    padding-top: 26px;
+    
+}
+.flatpromotionsheader h4{
+   
+    color: white ;
+    
+}
+.flatpromotionsheader p{
+   
+    color: #F2F2F2 ;
+    
+}
+.flatpromotionsscards{
+    
+}
+
+.afterdiv{
+    background-color: blue;
+    height: 2px;
+}
+
+
+
+
+
+//Responsive
+
+@media only screen and (max-width: 762px) {
+    .sliderpromotions {
+      
+        padding-top: 28%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+
+    .sliderpromotions {
+       
+        padding-top: 17%;
+    }
+}

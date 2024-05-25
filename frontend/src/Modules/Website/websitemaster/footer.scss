@@ -1,0 +1,105 @@
+.footer{
+    height: 340px;
+    background-color: white;
+    width: 100%;
+
+}
+
+#footerupper{
+
+    background-color: #066163 ;
+    color: aliceblue;
+    width: 95%;
+    border-radius: 10px;
+    position: relative;
+    top: 39px;
+}
+
+#blankbuttonstyle2{
+
+    background-color: none !important;
+    border: 1px solid #F2F2F2 ;
+    color: #F2F2F2;
+    
+    
+}
+#blankbuttonstyle2:hover{
+
+    background-color: #066163;
+    color: #F2F2F2;
+    border: 1px solid #042333 !important;
+    
+}
+#footerlower{
+    background-color:#1e3442;
+    height: 100%;
+}
+.endcredit{
+    border-top: 1px solid white;
+    padding-top: 8.5px;
+    padding-bottom: 6px;
+}
+
+.endcredit a{
+  color: #E1DFBA;
+  text-decoration: none;
+  display: inline;
+}
+.endcredit a:hover{
+    color: #c5c5c5;
+    text-decoration: none;
+    display: inline;
+}
+
+#lowerfootersections{
+ 
+    color: #c5c5c5;
+}
+
+#footerbuttontext{
+    color: white;
+    text-decoration: none;
+}
+
+
+#lowerfootersections h5{
+  color: white
+}
+#lowerfootersections a{
+    color: #e6e6e6
+  }
+#lowerfootersections a:hover{
+    
+    color: #E1DFBA
+}
+   
+
+
+#footerwesbitenavigation{
+    color: #F2F2F2;
+    text-decoration: none;
+    display: block;
+}
+#lowerfootersections{
+    padding-left: 108px;
+}
+
+
+//for tablets
+@media only screen and (min-width: 768px) {
+
+    #footerlower {
+        background-color: #1e3442;
+        height: 109%;
+    }
+
+}
+
+
+//for mobile
+@media only screen and (max-width: 600px) {
+    #footerlower {
+        background-color: #1e3442;
+        height: 192%;
+    }
+  }

@@ -1,0 +1,58 @@
+#statssection {
+  text-align: center;
+  color: #383838;
+}
+
+.statsandobjectivebody {
+  height: 800px !important;
+}
+
+#statssection i {
+  font-size: 40px;
+}
+
+.statsmiddlesection {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+#stats {
+  width: 95%;
+  position: relative;
+  bottom: 50px;
+  background-color: #fffff1;
+  border-radius: 25px;
+}
+
+//objective
+
+#objectivesection {
+  height: 66%;
+
+  padding-top: 3%;
+}
+
+.imagesection {
+  height: 87%;
+  width: 70%;
+  border-radius: 20px;
+  background-position: -3px -92px;
+  background-image: url("../../../../../public/icons/objectivesimage.png");
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background-size: cover;
+  margin-right: 5%;
+  margin-top: 4.7%;
+}
+.imagesection h4 {
+  margin-top: 35%;
+}
+
+#objectivegroup h5 {
+  color: #066163;
+  margin-top: 5%;
+  font-size: 25px;
+}
+
+#objevtices {
+  padding-top: 7.5%;
+}

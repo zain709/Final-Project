@@ -1,0 +1,16 @@
+.mainbody{
+    height: 532px;
+    padding: 96px;
+    padding-left: 242px;
+    padding-right: 242px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maindashboardbody{
+    background: url("../../public//icons/dashboardbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+}

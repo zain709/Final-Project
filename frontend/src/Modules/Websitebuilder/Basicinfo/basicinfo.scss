@@ -1,0 +1,42 @@
+#basicinfocardicon{
+ 
+    padding: 6px;
+    border-radius: 22px;
+    background-color: #383838;
+    color: white;
+    padding-left: 11px;
+    padding-right: 11px;
+
+
+}
+
+
+.basicinfoupperpart{
+    height: 150px;
+    background-color: #066163;
+    padding-top: 1.2%;
+    color: white;
+    margin-top: 0.5%;
+}
+
+.basicinfolowerpart{
+    height: 830px;
+    margin-top: 2%;
+    overflow: auto;
+   
+}
+
+
+
+
+//Mobile screen
+
+@media only screen and (max-width: 600px) {
+    .basicinfoupperpart {
+        height: 187px;
+        background-color: #066163;
+        padding-top: 5.2%;
+        color: white;
+        margin-top: 1.5%;
+    }
+  }

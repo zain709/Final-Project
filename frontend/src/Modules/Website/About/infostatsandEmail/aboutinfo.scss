@@ -1,0 +1,83 @@
+.Whyussection{
+    padding-top: 103px;
+    height: 646px;
+    
+}
+.chooseusheading{
+    color: #066163;
+}
+.whyusimage{
+    height: 235.5px;
+
+}
+
+#whyusimagesection{
+    display: block;
+}
+
+
+//statssection
+#aboutstatssection{
+    height: 212px;
+    background-color: #383838;
+    padding-top: 36px;
+    width: 100%;
+}
+#statsobject h5{
+    color: white;
+}
+#statsobject p{
+    color: rgb(235, 231, 231);
+}
+
+
+
+//Email lead section
+
+
+#emailleadsection{
+
+  
+    height:  400px;
+}
+
+#emailleadleft{
+    padding-top: 8.5%;
+}
+
+.aboutbody{
+    width: 90%;
+    border-radius: 30px;
+    position: relative;
+    bottom: 90px;
+    background-color: white;
+}
+
+
+
+//Media screen for Mobile screen responsiveness
+
+@media screen and (max-width: 600px) {
+    .aboutbody {
+        width: 90%;
+        border-radius: 30px;
+        position: relative;
+        bottom: 44px;
+        background-color: white;
+    }
+    #aboutstatssection {
+        height: 212px;
+        background-color: #383838;
+        padding-top: 36px;
+        margin-top: 251px;
+    }
+    #aboutstatssection {
+        height: 442px;
+        background-color: #383838;
+        padding-top: 36px;
+        margin-top: 251px;
+    }
+    #leadimage{
+        height: 181px;
+    }
+  }

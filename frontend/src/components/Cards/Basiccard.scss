@@ -1,0 +1,46 @@
+.basiccardbody {
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  transition-duration: 0.5s;
+}
+
+.basiccardbody:hover .headercard {
+  bottom: 20px;
+}
+
+.carddivider {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+.headercard {
+  background-color: #066163;
+  height: 43px;
+  padding: 12px;
+  color: white;
+  border-radius: 11px;
+  position: relative;
+  bottom: 28px;
+  transition-duration: 0.5s;
+}
+.cardarrow {
+  position: relative;
+  left: 0px;
+  transition-duration: 0.5s;
+}
+
+.cardlink {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.cardlink:hover {
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+}
+
+.linklowertext:hover .cardarrow {
+  left: 5px;
+}

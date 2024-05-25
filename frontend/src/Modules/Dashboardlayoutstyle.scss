@@ -1,0 +1,14 @@
+.Upperheader{
+    background-color: #383838;
+    color: white;
+    z-index: 120;
+}
+
+.linka{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#blankbuttonstyle3:hover .linka {  color: black;
+    text-decoration: none; }

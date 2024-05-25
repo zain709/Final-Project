@@ -1,0 +1,47 @@
+#contactabout{
+    background-color: white;
+    border-radius: 20px;
+}
+.userlogocontact{
+    height: 115px;
+    border-radius: 105px;
+    padding: 9px;
+    padding-top: 13px;
+    position: relative;
+    bottom: 35px;
+    background-color: white;
+}
+
+#contactleftsection{
+color: white  !important;
+background: url("../../../../../public/icons/contactformbackground.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.card-header{
+    background-color: #066163;
+    color: #F2F2F2 ;
+}
+
+#iconsdivcontact a{
+    color: white;
+}
+#iconsdivcontact:hover{
+    color: rgb(230, 230, 207);
+}
+@media only screen and (max-width: 600px) {
+    .slider {
+      
+        padding-top: 26%;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+
+    .slider {
+      
+        padding-top: 14%;
+    }
+}

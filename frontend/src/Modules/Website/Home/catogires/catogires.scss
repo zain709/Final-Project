@@ -1,0 +1,32 @@
+.cetagoriessection{
+    min-height: 350px;
+  
+    background: url("../../../../../public/icons/homepagecetagoriesbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.cetagoriessection button{
+    display: inline;
+}
+#subheading{
+    font-size: 19px;
+}
+.devider{
+    width: 70%;
+    height: 1px;
+    background-color: white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .cetagoriessection{
+       margin-top: 150px;
+   }
+  }

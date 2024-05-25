@@ -1,0 +1,22 @@
+.basiccard {
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  transition-duration: 0.5s;
+}
+
+.basiccard:hover .headercardExpense {
+  bottom: 20px;
+}
+
+.headercardExpense {
+  background-color: #066163;
+  padding: 12px;
+  color: white;
+  font-size: 24px;
+  border-radius: 11px;
+  position: relative;
+  bottom: 28px;
+  transition-duration: 0.5s;
+}

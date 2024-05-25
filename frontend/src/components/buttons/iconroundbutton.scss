@@ -1,0 +1,19 @@
+.roundedicon{
+    
+    cursor: pointer;
+    color: black;
+    padding: 4px;
+    /* width: 6px; */
+    background-color: #f3f0f0;
+    border-radius: 47px;
+    padding-left: 70%;
+    padding-right: 70%;
+    padding-bottom: 37%;
+    transition-duration: 0.5s;
+    
+}
+
+.roundedicon:hover{
+    color: black;
+    background-color: #d4d1d1;
+}

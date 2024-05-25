@@ -1,0 +1,75 @@
+.badge {
+  background-color: #383838 !important;
+}
+.upperheadingdashboardcard {
+  color: #066163;
+}
+
+.tablesection {
+  overflow: auto;
+  height: 415px;
+  margin-top: 29px;
+}
+
+#sortingselect {
+  height: 20px;
+}
+
+.feedbackintable {
+  width: 508px;
+  overflow: auto;
+}
+
+#lowersection {
+  margin-left: 1px;
+  max-height: 510px;
+}
+
+
+
+
+/* Dashboard icons styling */
+
+.iconbody{
+
+  color: #030303;
+  width: 101px;
+  text-align: center;
+  transition:0.3s;
+  
+}
+
+
+
+.iconimage{
+
+  height: 45px;
+  padding: 10px;
+  background-color:aliceblue;
+  border-radius: 15px;
+  transition:0.3s;
+  box-shadow: none;
+
+}
+
+.iconbody:hover .iconimage{
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.iconheading{
+  font-size: 12px;
+}
+.links{
+  color: #ffffff;
+  text-decoration: none;
+  transition-duration: 0.3s
+}
+.links:hover{
+  color: #030303;
+  text-decoration: none;
+}
+
+
+/*   */

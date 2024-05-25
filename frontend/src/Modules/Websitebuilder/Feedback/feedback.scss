@@ -1,0 +1,41 @@
+.badge {
+  background-color: #383838 !important;
+}
+.upperheadingdashboardcard {
+  color: #066163;
+}
+
+#infocard {
+  background-color: #066163 !important;
+  color: white !important;
+}
+#infocardicon {
+  padding: 6px;
+  border-radius: 22px;
+  background-color: #383838;
+  color: white;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+//lowersection
+
+.feedbackintable {
+  width: 508px;
+  overflow: auto;
+}
+
+#lowersection {
+  margin-left: 1px;
+  max-height: 510px;
+}
+
+.tablesection {
+  overflow: auto;
+  height: 415px;
+  margin-top: 29px;
+}
+
+#sortingselect {
+  height: 20px;
+}

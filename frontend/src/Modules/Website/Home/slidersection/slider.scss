@@ -1,0 +1,57 @@
+.cover{
+    
+   
+    margin-top: 60px;
+    background-color: #E1DFBA ;
+   //  background: url("../../../../../public/icons/homepagesliderbackground.png");
+   //  background-attachment: fixed;
+   //  background-size: cover;
+    color: white;
+   //  background-position-y: -399px;
+   background: linear-gradient(-45deg, #4d4c4c, #010d58, #006387, #980000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;  
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#sliderbody{
+   height: 5%;
+   padding-bottom: 12%;
+}
+
+.cover h1{
+   margin-top: 4%;
+   padding-top: 6%;
+   margin-bottom: 9px;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+   #sliderbody{
+      padding-top: 0.5%;
+      padding-bottom: 20%;
+   }
+   #sliderbody h1{
+   
+     font-size: 23px;
+   }
+   #sliderbody h6{
+   
+      font-size: 15px;
+   }
+   
+  }

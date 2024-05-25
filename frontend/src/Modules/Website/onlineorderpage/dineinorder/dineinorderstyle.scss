@@ -1,0 +1,503 @@
+#upperpart{
+    
+    text-align: center;
+    color: #ECECEC;
+    padding: 5px;
+    background-image: url("/images/upperbackground.png");
+    background-position: -100px -618px;
+    background-attachment: fixed;
+    background-size: 1621px;
+    height: 324px;
+    box-shadow: 0px 5px 20px #bbb9b9;
+
+}
+#Warningalert{
+    background-color: #383838;
+}
+#cartmodel{
+    background-color: #F2F2F2 ;
+}
+
+
+
+#itemsincart{
+    min-height: 515px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+#Warningalert hr{
+    background-color: white;
+}
+
+
+
+#lowerpart{
+    padding: 2%;    
+    background-image: url("/images/lowerback.png");
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0;
+}
+
+#uh1{
+    font-size: 32px;
+    margin-top: 102px !important;
+   
+}
+
+#uh2{
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+#suggetionmodel{
+    
+    position: fixed;
+    top: 30%;
+    left: 12%;
+    z-index: 50;
+    border: 1px solid rgba(145, 141, 141, 0.603);
+    border-radius: 5px;
+    background-color: white;
+    }
+#model a{
+    color: #30475E;
+    text-decoration: none;
+   
+}
+#model a:hover{
+    color: #F2A365;
+    transition-duration: 0.3s;
+    text-decoration: none;
+   
+}
+
+#allcontent::before{
+
+    background-color: black;
+    z-index: -90;
+   
+}
+
+#Modeltrigger{
+    color: #F2F2F2 !important;
+}
+
+
+
+
+//form controls
+#nameinput{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+}
+#voucher{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+}
+#nameinput:focus{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(255, 255, 255);
+}
+#emailinput{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+ 
+}
+#emailinput:focus{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(255, 255, 255);
+}
+
+
+#ordertypeinput{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+ 
+}
+
+#ordertypeinput:focus{
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(255, 255, 255);
+}
+
+
+#selectoptions{
+    color: black;
+    background-color:transparent;
+}
+#selectoptions:focus{
+    color: black;
+    background-color:transparent;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(255, 255, 255);
+}
+
+
+
+#Tablenumber{
+    background-color: transparent;
+    color: white;
+}
+
+#selectoptions:focus{
+    color: black;
+    background-color:transparent;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(255, 255, 255);
+}
+
+
+
+
+//
+
+
+#Modeltrigger:hover{
+    font-size: 17px;
+}
+
+
+#menuesection{
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 60px;
+    padding: 3%;
+    
+    width: 95%;
+    z-index: 200;
+}
+
+
+
+
+#allcontent{
+    border: 2px solid red;
+}
+.merabutton{
+
+    background-color: blue;
+}
+
+#itemselectbuttons{
+
+    display: inline-block;
+
+}
+
+.cartitems{
+    border: #30475E;
+    color:#30475E;
+    border-bottom: 1px solid #30475E ;
+  
+    
+   
+}
+
+#userdetails{
+
+   width: 35%;
+  
+
+
+}
+
+#Tablenumber{
+    width: 45%;
+    display: inline;
+    margin-left: 5%;
+    text-align: center;
+   
+}
+#ordertypeinput{
+    margin-left: 2.5%;
+    width: 45%;
+    display: inline;
+    text-align: center;
+}
+
+#lowertext1{
+color: #F2F2F2 !important;
+margin-top: 25px;
+}
+#lowertext2{
+    color: #F2F2F2 !important;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#validationwarning{
+    font-size: 15px;
+   
+    color: #ff0000 !important;
+}
+
+.cartitemsarea{
+    overflow:scroll;
+    max-height: 200px;
+}
+
+.Delteitembutton img{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .Delteitembutton{
+      margin-bottom: 30px;
+      margin-left: 15px;
+      background-color: #d7d3d3;
+     
+      width: 25px;
+      padding: 4px;
+     padding-left: 6px;
+     padding-right: 6px;
+  
+      border-radius: 50px;
+      cursor: pointer;
+  
+  }
+
+  .closeordercart{
+    margin-left: 17%;
+    margin-right: 18%;
+  }
+  
+  .Delteitembutton:hover{
+      transition-duration: 0.5s;
+      margin-bottom: 30px;
+      margin-left: 15px;
+      background-color: #e6dfdf;
+     
+      width: 25px;
+      padding: 4px;
+     padding-left: 6px;
+     padding-right: 6px;
+  
+      border-radius: 50px;
+  
+  }
+  
+  
+
+
+
+
+
+// Button settings
+
+
+//Solid buttons ----------------------------------->
+
+
+//Dark to light button
+#buttonstyle1{
+
+    background-color: #066163;
+    color: #F2F2F2;
+  
+    transition-duration: 0.3s;
+    border: 1px solid #066163;
+}
+#buttonstyle1:focus{
+    background-color: #066163;
+    color: #F2F2F2;
+   
+    box-shadow: none;
+    border: 1px solid #066163;
+}
+
+#buttonstyle1:hover{
+
+    background-color: #F2F2F2;
+    color: #042333;
+   
+    border: 1px solid #3B5360;
+    
+
+}
+
+
+
+// light to dark Button
+
+
+#buttonstyle2{
+
+    background-color: #F2F2F2;
+    color: #3B5360;
+  
+    transition-duration: 0.3s;
+    border: 1px solid #066163;
+}
+#buttonstyle2:focus{
+    background-color: #F2F2F2;
+    color: #3B5360;
+  
+    box-shadow: none;
+    border: 1px solid #066163;
+}
+
+#buttonstyle2:hover{
+
+
+    background-color: #066163;
+    color: #F2F2F2;
+   
+    border: 1px solid #3B5360;
+    
+
+}
+
+
+
+
+
+//dak to dark
+
+#buttonstyle3{
+
+    background-color: #066163;
+    color: #F2F2F2;
+  
+    transition-duration: 0.3s;
+    border: 1px solid #066163;
+}
+#buttonstyle3:focus{
+    background-color: #066163;
+    color: #F2F2F2;
+   
+    box-shadow: none;
+    border: 1px solid #066163;
+}
+
+#buttonstyle3:hover{
+
+    background-color: #383838;
+    color: #F2F2F2;
+   
+    border: 1px solid #F2F2F2;
+    
+
+}
+
+
+//dark to dark black
+
+#buttonstyle4{
+
+    background-color: #323232;
+    color: #F2F2F2;
+  
+    transition-duration: 0.3s;
+    border: 1px solid #323232;
+}
+#buttonstyle4:focus{
+    background-color: #323232;
+    color: #F2F2F2;
+   
+    box-shadow: none;
+    border: 1px solid #323232;
+}
+
+#buttonstyle4:hover{
+
+    background-color: rgb(36, 32, 32);
+    color: #F2F2F2;
+   
+    border: 1px solid rgb(36, 32, 32);
+    
+
+}
+
+
+
+
+//Blank buttons   -------------------->
+
+//Blank Dark button
+#blankbuttonstyle1{
+
+    border: 1px solid #042333 ;
+    color: #042333;
+    
+    
+}
+#blankbuttonstyle1:hover{
+
+    background-color: #F2F2F2;
+    color: #042333;
+    border: 1px solid #F2F2F2 !important;
+    
+}
+
+
+//blank light button
+
+#blankbuttonstyle2{
+
+    border: 1px solid #F2F2F2 ;
+    color: #F2F2F2;
+    
+    
+}
+#blankbuttonstyle2:hover{
+
+    background-color: #042333;
+    color: #F2F2F2;
+    border: 1px solid #042333 !important;
+    
+}
+//light to light
+#blankbuttonstyle3{
+
+    border: 1px solid #F2F2F2 ;
+    color: #F2F2F2;
+    
+    
+}
+#blankbuttonstyle3:hover{
+
+    background-color: #F2F2F2;
+    color: #042333;
+    border: 1px solid #d2d1d1 !important;
+    
+}
+#blankbuttonstyle3:focus{
+
+    background-color: #F2F2F2;
+    color: #042333;
+    border: 1px solid #d2d1d1 !important;
+    box-shadow: none !important;
+    
+}
+
+
+
+
+.blankbuttonstyle1{
+
+    border: none ;
+    background-color:#222831 ;
+    color: #ECECEC;
+    
+}
+.blankbuttonstyle1:hover{
+
+    background-color: #30475E;
+    color: #ECECEC;
+    
+    
+}
+
+

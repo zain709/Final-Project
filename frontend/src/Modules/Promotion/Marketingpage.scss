@@ -1,0 +1,22 @@
+.rightpartmarketingbanner{
+    display: flex;
+    padding: 20px;
+    height: 130%;
+    flex-direction: column;
+  
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+#promotiondiv{ 
+    padding: 29px;
+    border-radius: 26px;
+}
+
+#emailmarketingdiv{
+    padding: 29px;
+    border-left: 0.5px solid rgba(132, 131, 131, 0.532);
+}
+
+
+
